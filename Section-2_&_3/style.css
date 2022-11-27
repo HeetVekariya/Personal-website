@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+h1 {
+    color: #66BFBF;
+    font-size: 5.625rem;
+    font-family: 'Sacramento', cursive;
+    line-height: 2;
+    margin: 50px auto 0 auto;
+}
+
+h2{
+    color: #66BFBF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+}
+
+h3{
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.top-container {
+    background-color: #E4F9F5;
+    position: relative;
+    padding-top: 100px;
+}
+
+.middle-container {
+    background-color: #E4FFF5;
+    padding-top: 100px;
+}
+
+.bottom-container {
+    background-color: #b1dfd5;
+    padding: 30px;
+}
+.footer-link {
+    color: #08566a;
+    padding: 0 30px;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: black;
+    border-width: 6px;
+    width: 10%;
+}
+
+.hr {
+    margin-top: 150px;
+}
+
+.button {
+    background-color: #11999E;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 10px 2px;
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+input:hover {
+    background-color: #66BFBF;
+}
+
+.top-cloud {
+    position: absolute;
+    top: 50px;
+    right: 300px;
+}
+.bottom-cloud {
+    position: absolute;
+    bottom: 300px;
+    left: 250px;
+}
+
+.profile-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.computer-img {
+    width: 25%;
+    border-radius: 50%;
+    float: left;
+    margin-right: 30px; 
+}
+
+.gamer-img {
+    width: 23%;
+    border-radius: 50%;
+    float: right;
+    margin-left: 30px;
+}
